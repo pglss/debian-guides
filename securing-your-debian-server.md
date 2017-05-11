@@ -26,6 +26,10 @@ and set
 
 ```PermitRootLogin without-password```
 
+next,
+
+run ```service sshd restart```
+
 ## Install fail2ban
 
 ```apt-get install fail2ban```
