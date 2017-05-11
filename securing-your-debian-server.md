@@ -30,4 +30,6 @@ and set
 
 ```apt-get install fail2ban```
 
+This prevents too many unauthorized login attempts.
+
 ## All done!
