@@ -1,6 +1,14 @@
 # Securing your newly installed Debian server
 
+The first thing you are going to want to do after setting up a newly created Debian install is secure it.
+
+## Update package repo & upgrade packages using apt
+
+```apt-get update && and-get upgrade```
+
 ## Install  the unattended upgrades package
+
+Unattended upgrades installs the latest security updates automatically.
 
 ```apt-get install unattended-upgrades```
 
@@ -16,7 +24,7 @@ store it in the default file. Choose a password as well if you choose, although 
 
 ```mkdir ~/.ssh```
 
-echo <insert public key ENDS IN .pub> >> ~/.ssh/authorized_keys
+```echo <insert public key ENDS IN .pub> >> ~/.ssh/authorized_keys```
 
 next, 
 
